@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from fbprophet import Prophet
+import plotly.io as pio
+pio.renderers.default = 'iframe'
+
 
 # Set page title
 st.set_page_config(page_title='Sellthrough Data Analysis', page_icon=':bar_chart:')
