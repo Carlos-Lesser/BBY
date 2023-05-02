@@ -1,4 +1,4 @@
-pandas
-streamlit
-plotly
-fbprophet
+pandas==1.2.4
+streamlit==0.82.0
+plotly==5.3.1
+fbprophet==0.7.1
